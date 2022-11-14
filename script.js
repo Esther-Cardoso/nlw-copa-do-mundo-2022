@@ -46,6 +46,6 @@ document.querySelector('#cards').innerHTML =
     '02/12',
     'sexta',
     createGame('coreadosul', 'Corea do sul', '12:00', 'portugal', 'Portugal') +
-      createGame('gana', 'Gana', '10:00', 'uruguai', 'Uruguai') +
+      createGame('gana', 'Gana', '12:00', 'uruguai', 'Uruguai') +
       createGame('camaroes', 'Camarões', '16:00', 'brasil', 'Brasil'),
   );
