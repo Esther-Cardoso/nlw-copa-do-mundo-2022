@@ -25,26 +25,20 @@ function createCard(date, day, games) {
   `;
 }
 
-document.querySelector('#app').innerHTML = `
-    <header>
-      <img src="./assets/logo.svg" alt="Logo NLW">
-    </header>
-    <main id="cards">
-      ${createCard(
-        '24/11',
-        'quinta',
-        createGame('brasil', 'Brasil', '16:00', 'servia', 'Sérvia'),
-      )}
-      ${createCard(
-        '28/11',
-        'segunda',
-        createGame('brasil', 'Brasil', '13:00', 'suica', 'Suiça') +
-          createGame('portugal', 'Portugal', '16:00', 'uruguai', 'Uruguai'),
-      )}
-      ${createCard(
-        '02/12',
-        'sexta',
-        createGame('camaroes', 'Camarões', '16:00', 'brasil', 'Brasil'),
-      )}
-    </main>
-`;
+document.querySelector('#cards').innerHTML =
+  createCard(
+    '24/11',
+    'quinta',
+    createGame('brasil', 'Brasil', '16:00', 'servia', 'Sérvia'),
+  ) +
+  createCard(
+    '28/11',
+    'segunda',
+    createGame('brasil', 'Brasil', '13:00', 'suica', 'Suiça') +
+      createGame('portugal', 'Portugal', '16:00', 'uruguai', 'Uruguai'),
+  ) +
+  createCard(
+    '02/12',
+    'sexta',
+    createGame('camaroes', 'Camarões', '16:00', 'brasil', 'Brasil'),
+  );
