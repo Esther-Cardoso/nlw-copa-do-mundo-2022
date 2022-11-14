@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="./">
+<img src="./img-copa-readme.jpg">
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 </p>
 
 <h2 id="objetivo">Objetivo</h2>
-<p>O objetivo desse projeto foi aprimorar minhas habilidades em Javascript e CSS. Eu trabalhei com funções e interpolação.</p>
+<p>O objetivo desse projeto foi aprimorar minhas habilidades em Javascript e CSS. Aqui o conteúdo HTML foi inserido pelo js.</p>
 
 <h2 id="tecnologias">🛠 Tecnologias</h2>
 As seguintes ferramentas foram usadas na construção do projeto:

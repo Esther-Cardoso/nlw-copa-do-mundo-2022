@@ -31,21 +31,21 @@ document.querySelector('#cards').innerHTML =
   createCard(
     '24/11',
     'quinta',
-    createGame('uruguai', 'Uruguai', '10:00', 'coreadosul', 'Corea do sul') +
+    createGame('uruguai', 'Uruguai', '10:00', 'coreadosul', 'Corea') +
       createGame('portugal', 'Portugal', '13:00', 'gana', 'Gana') +
       createGame('brasil', 'Brasil', '16:00', 'servia', 'Sérvia'),
   ) +
   createCard(
     '28/11',
     'segunda',
-    createGame('coreadosul', 'Corea do sul', '10:00', 'gana', 'Gana') +
+    createGame('coreadosul', 'Corea', '10:00', 'gana', 'Gana') +
       createGame('brasil', 'Brasil', '13:00', 'suica', 'Suiça') +
       createGame('portugal', 'Portugal', '16:00', 'uruguai', 'Uruguai'),
   ) +
   createCard(
     '02/12',
     'sexta',
-    createGame('coreadosul', 'Corea do sul', '12:00', 'portugal', 'Portugal') +
+    createGame('coreadosul', 'Corea', '12:00', 'portugal', 'Portugal') +
       createGame('gana', 'Gana', '12:00', 'uruguai', 'Uruguai') +
       createGame('camaroes', 'Camarões', '16:00', 'brasil', 'Brasil'),
   );
